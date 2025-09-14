@@ -3,43 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Cat Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>Hello</h1> 
-    <h2>Hello</h2> 
-     <h6>Hello</h6> 
-     <p>Hello This is a paragraph<p> 
-        <hr>
-        <ol>
-            <li>Panner</li>
-            <li>Rice</li>
-            <li>Masale</li>
-            <li>Zomato </li>
-        </ol>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Welcome to Cat World</h1>
+        <p>The best place for cat lovers!</p>
+    </div>
 
-        <ul>
-            <li>Panner</li>
-            <li>Rice</li>
-            <li>Masale</li>
-            <li>Zomato </li>
-        </ul>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/500px-Cat_November_2010-1a.jpg" alt="Suru">
-    <a href="https://www.google.com/search?q=facebook&oq=&gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIMCAAQIxgnGOoCGK0GMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQLhgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIMCAYQIxgnGOoCGK0GMgwIBxAjGCcY6gIYrQYyFQgIEAAYQhiRAhi0AhjqAhiABBiKBTIVCAkQABhCGJECGLQCGOoCGIAEGIoFMhUIChAAGEIYkQIYtAIY6gIYgAQYigUyFQgLEAAYQhiRAhi0AhjqAhiABBiKBdIBCTE5NzdqMGoxNagCDLACAfEFpI666EIaPlQ&sourceid=chrome&ie=UTF-8">facebook</a>
-    <form >
-        <br>
-       Enter name  <input type="text" placeholder = "Enter your name">
-       Enter password <input type="Password">
-       Enter checkbox <input type="checkbox">
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#cats">Our Cats</a>
+        <a href="#about">About</a>
+    </div>
 
-    </form>
-    <video autoplay loop muted controls src= "./vediolink.mp4" >
-        <div>
-<h1>Conatainers</h1>
-<h5>Conatainers</h5>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Cat Cards -->
+        <div class="cat-section">
+            <h2>Meet Our Cats</h2>
+            
+            <div class="cat-cards">
+                <div class="cat-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/300px-Cat_November_2010-1a.jpg" alt="Orange Cat">
+                    <h3>Fluffy</h3>
+                    <p>A friendly orange cat who loves to play</p>
+                </div>
 
+                <div class="cat-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/300px-Cat_poster_1.jpg" alt="Black Cat">
+                    <h3>Shadow</h3>
+                    <p>A sleek black cat with beautiful green eyes</p>
+                </div>
+            </div>
         </div>
-        
-    </video>
+
+        <!-- Fun Facts -->
+        <div class="facts-section">
+            <h2>Cat Facts</h2>
+            <ul>
+                <li>Cats sleep 12-16 hours a day</li>
+                <li>Cats have 32 muscles in each ear</li>
+                <li>A group of cats is called a "clowder"</li>
+                <li>Cats can make over 100 different sounds</li>
+            </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Cat World. Made with love for cats!</p>
+    </div>
 </body>
 </html>
